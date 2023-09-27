@@ -1,0 +1,55 @@
+.sidebar {
+  display: grid;
+  grid-template-columns: 20vw auto;
+  grid-column-gap: 2px;
+}
+
+.side-buton {
+  margin-left: 0%;
+  text-align: center;
+  min-height: 100vh;
+  background-color: rgb(59, 59, 59);
+}
+
+.Login,
+.Extra,
+.ShowState,
+.Createform,
+.Updateform,
+.Showdata {
+  border: 5px solid rgb(131, 116, 116);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+ul > :hover {
+  border: 5px solid rgb(219, 219, 219);
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+}
+
+ul {
+  margin: 0px 0px 0px -40px;
+}
+
+li {
+  padding-bottom: 10px;
+  list-style: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+a,
+.update {
+  text-decoration: none;
+  color: rgb(0, 255, 98);
+}
+a > .active {
+  text-decoration: none;
+  color: white;
+}
+
+ul .active {
+  color: white;
+}

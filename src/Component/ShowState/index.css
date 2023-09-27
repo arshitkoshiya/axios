@@ -1,0 +1,15 @@
+.stateHeading {
+  height: 5%;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: bolder;
+  padding: 10px;
+  font-size: larger;
+  width: 95% !important;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
