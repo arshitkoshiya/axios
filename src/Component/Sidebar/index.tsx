@@ -16,14 +16,14 @@ function Index() {
     <div className="sidebar">
       <div className="side-buton">
         <ul>
-          {checkToken === null ? (
+          {checkToken == null ? (
             <li className="Login">
-              <Link to="/">Login</Link>
+              <Link to="/login">Login</Link>
             </li>
           ) : (
             <>
               <li className="Login">
-                <Link to="/">Profile</Link>
+                <Link to="/login">Profile</Link>
               </li>
               <li className="Createform">
                 <Link to="/Createform">Create Form</Link>
@@ -33,6 +33,9 @@ function Index() {
               </li>
               <li className="ShowState">
                 <Link to="/ShowState">Show State</Link>
+              </li>
+              <li className="ShowState">
+                <Link to="/Game">Tic Tac Toe</Link>
               </li>
               <li className="Updateform">
                 {/* <Link to="/Updateform">Update Form</Link> */}

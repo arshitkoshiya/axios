@@ -1,5 +1,5 @@
 .headings {
-  height: 5%;
+  height: 9%;
   background-color: rgb(59, 59, 59);
   color: white;
   display: flex;
@@ -7,7 +7,7 @@
   font-weight: bolder;
   padding: 10px;
   font-size: larger;
-  width: 97.5% !important;
+  width: 100% !important;
 }
 .inputFields{
     border: 1px solid black;

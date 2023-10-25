@@ -1,0 +1,42 @@
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.success{
+    height: fit-content;
+    color: white;
+    padding: 3%;
+    border-radius: 30px;
+    background-color: green;
+    box-shadow: 0px 1px 10px 5px limegreen;
+}
+.tie{
+    height: fit-content;
+    color: white;
+    padding: 3%;
+    border-radius: 30px;
+    background-color: gray;
+    box-shadow: 0px 1px 10px 5px lightgrey;
+}
+.board {
+	display: grid;
+	grid-template-columns: 26.5vw 26.5vw 26.5vw;
+	grid-template-rows: 33.33vh 33.33vh 33.33vh;
+	height: 100vh;
+}
+.box {
+	display: flex;
+	border: 1px solid black;
+	font-size: 100px;
+	justify-content: center;
+	align-items: center;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.disabled-div {
+    pointer-events: none; /* This makes the div unclickable and unselectable */
+    opacity: 0.6; /* Optional: Reduces opacity to visually indicate it's disabled */
+    cursor: not-allowed; /* Optional: Change the cursor to "not-allowed" to indicate it's disabled */
+}

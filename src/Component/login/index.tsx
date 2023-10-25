@@ -20,7 +20,7 @@ export default function Index() {
   const handleLogout = () => {
     localStorage.removeItem("token");
     setLogin(true);
-    window.location.href = "/";
+    window.location.href = "/login";
   };
   useEffect(() => {
     if (checkToken === null) {
